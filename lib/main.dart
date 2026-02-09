@@ -14,18 +14,16 @@ class BrewMasterApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'BrewMaster',
       theme: ThemeData(
-        scaffoldBackgroundColor: const Color(0xFFFAF9F6),
-        appBarTheme: const AppBarTheme(
-          backgroundColor: Color(0xFF4B3621),
-          foregroundColor: Colors.white,
-          centerTitle: true,
-        ),
+        scaffoldBackgroundColor: const Color(0xFFF9F9F9),
+        primaryColor: const Color(0xFF4E342E),
         colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color(0xFF4B3621),
-          primary: const Color(0xFF4B3621),
-          secondary: const Color(0xFFD4A373),
+          seedColor: const Color(0xFF4E342E),
+          primary: const Color(0xFF4E342E),
+          secondary: const Color(0xFFC69C6D),
+          surface: Colors.white,
         ),
         useMaterial3: true,
+        fontFamily: 'Poppins',
       ),
       home: const SplashScreen(),
     );

@@ -1,16 +1,78 @@
-# brewmaster_app
+# ☕ BrewMaster - Coffee Shop Catalog App
 
-A new Flutter project.
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Completed-success)
 
-## Getting Started
+**BrewMaster**, modern ve kullanıcı dostu bir arayüze sahip, kahve ürünlerini listeleyen ve detaylarını sunan bir mobil katalog uygulamasıdır. Bu proje, **Mobil Uygulama Geliştirme Eğitimi** kapsamında geliştirilmiştir.
 
-This project is a starting point for a Flutter application.
+## 📱 Proje Özellikleri (Features)
 
-A few resources to get you started if this is your first Flutter project:
+Bu uygulama, temel Flutter yetkinliklerini ve UI/UX prensiplerini sergilemektedir:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* **🎨 Özel Açılış Ekranı (Splash Screen):** Marka logosu ve geliştirici imzasını içeren profesyonel giriş.
+* **🔍 Gerçek Zamanlı Arama (Real-time Search):** Kullanıcıların kahve ismine göre anlık filtreleme yapabilmesi.
+* **✨ Hero Animasyonları:** Liste ve detay sayfası arasında akıcı görsel geçişler.
+* **📂 JSON Veri Yönetimi:** Yerel JSON dosyasından asenkron veri okuma ve modelleme.
+* **❤️ Favori Simülasyonu:** `setState` kullanılarak anlık durum (state) yönetimi.
+* **📱 Responsive Tasarım:** `GridView` kullanılarak farklı ekran boyutlarına uyumlu arayüz.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📸 Ekran Görüntüleri (Screenshots)
+
+| Açılış Ekranı | Ana Sayfa | Ürün Detayı | Sepet |
+|:---:|:---:|:---:|:---:|
+| <img src="assets/images/ss_splash.jpeg" width="200"/> | <img src="assets/images/brewmaster_mobil_anasayfa.jpeg" width="200"/> | <img src="assets/images/brewmaster_mobil_detay.jpeg" width="200"/> | <img src="assets/images/brewmaster_mobil_sepet.jpeg" width="200"/> |
+
+*(Not: Ekran görüntüleri temsilidir, proje çalıştırıldığında canlı olarak görüntülenebilir.)*
+
+## 🛠️ Kullanılan Teknolojiler ve Mimari
+
+Proje, temiz kod (Clean Code) prensiplerine sadık kalınarak geliştirilmiştir.
+
+* **Framework:** Flutter (3.x)
+* **Dil:** Dart
+* **Veri Kaynağı:** Local Assets (`products.json`)
+* **Mimari Yaklaşım:** MVC (Model-View Separation)
+
+### Klasör Yapısı (Folder Structure)
+
+```text
+lib/
+├── models/          # Veri modelleri (Product Model)
+├── screens/         # Uygulama sayfaları (Home, Detail, Splash)
+├── widgets/         # Tekrar kullanılabilir arayüz parçaları
+├── main.dart        # Uygulama giriş noktası ve Tema ayarları
+assets/
+├── data/            # JSON veri dosyası (products.json)
+└── images/          # Görsel materyaller
+```
+
+## 🚀 Kurulum ve Çalıştırma (Installation)
+Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyin:
+
+1) Projeyi klonlayın:
+
+```bash
+git clone https://github.com/KULLANICI_ADINIZ/brewmaster_app.git
+```
+
+Proje dizinine gidin:
+
+```bash
+cd brewmaster_app
+```
+
+Gerekli paketleri yükleyin:
+
+```bash
+flutter pub get
+```
+
+Uygulamayı çalıştırın:
+
+```bash
+flutter run
+```
+
+## 👨‍💻 Geliştirici (Developer)
+Muhammet Enes DEMİRKOL
