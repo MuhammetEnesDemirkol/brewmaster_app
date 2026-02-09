@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "name": "Caffe Latte",
+      "price": 120,
+      "image": "assets/images/latte.jpg",
+      "description": "Yoğun espresso ve buharda ısıtılmış kadifemsi sütün mükemmel uyumu."
+    },
+    {
+      "id": 2,
+      "name": "Iced Americano",
+      "price": 90,
+      "image": "assets/images/americano.jpg",
+      "description": "Buzlu su üzerine dökülen taze espresso shotları ile ferahlatıcı lezzet."
+    },
+    {
+      "id": 3,
+      "name": "Cheesecake",
+      "price": 150,
+      "image": "assets/images/cheesecake.jpg",
+      "description": "Limon aromalı, yumuşacık tabanlı klasik San Sebastian cheesecake."
+    }
+  ]
